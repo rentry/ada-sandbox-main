@@ -35,9 +35,6 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 2.0)
-    jekyll-last-modified-at (1.3.0)
-      jekyll (>= 3.7, < 5.0)
-      posix-spawn (~> 0.3.9)
     jekyll-sass-converter (2.1.0)
       sassc (> 2.0.1, < 3.0)
     jekyll-watch (2.2.1)
@@ -46,14 +43,13 @@ GEM
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
-    liquid (4.0.3)
+    liquid (4.0.4)
     listen (3.5.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    posix-spawn (0.3.15)
     public_suffix (4.0.6)
     rake (13.0.3)
     rb-fsevent (0.10.4)
@@ -67,15 +63,16 @@ GEM
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     unicode-display_width (1.7.0)
+    webrick (1.7.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   bundler
-  jekyll-last-modified-at
   rake
   uswds-jekyll!
+  webrick
 
 BUNDLED WITH
    2.1.4
